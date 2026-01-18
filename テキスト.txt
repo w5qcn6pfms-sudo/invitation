@@ -1,0 +1,8 @@
+const envelope = document.getElementById("envelope");
+const sound = document.getElementById("magicSound");
+
+envelope.addEventListener("click", () => {
+  envelope.classList.toggle("open");
+  sound.currentTime = 0;
+  sound.play();
+});
