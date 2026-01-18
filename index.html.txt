@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Magic Invitation</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="envelope" id="envelope">
+  <div class="flap"></div>
+
+  <div class="card">
+    <h1>Invitation</h1>
+    <p>
+      〇月〇日<br>
+      〇〇にて<br><br>
+      特別な時間を<br>
+      一緒に過ごそう
+    </p>
+  </div>
+</div>
+
+<audio id="magicSound" src="magic.mp3"></audio>
+
+<script src="script.js"></script>
+</body>
+</html>
